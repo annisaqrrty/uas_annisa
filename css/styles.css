@@ -1,0 +1,227 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+}
+ 
+.form-container{
+	min-height: 100vh;
+	background-image: url(../image/img.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 80px;
+}
+ 
+.form-container form{
+	background: transparent;
+	border-radius: 30px;
+	width: 400px;
+	border:2px solid #526D82;
+	padding:20px;
+	text-align: center;
+}
+ 
+.form-container form .title{
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+ 
+.form-container form .box{
+	border-radius: 50px;
+	width: 100%;
+	padding:12px 14px;
+	font-size: 15px;
+	text-transform: none;
+	border:2px solid #526D82;
+	margin:10px 0;
+}
+ 
+.form-container form .form-btn{
+	border-radius: 50px;
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	padding:10px;
+	background-color: grey;
+	color:#fff;
+	cursor: pointer;
+	margin:10px 0;
+}
+ 
+.form-container form .form-btn:hover{
+	background-color: #19376D;
+}
+ 
+.form-container form p{
+	font-size: 15px;
+	margin-top: 30px;
+	font-style: oblique;
+}
+ 
+.form-container form p a{
+	color: #19376D;
+	font-weight: bold;
+}
+ 
+.form-container form .error-msg{
+	display: block;
+	width: 100%;
+	padding:10px 0;
+	margin:10px 0;
+	font-size: 15px;
+	color: red ;
+}
+
+
+/* read */
+.container-read {
+	display: flex;
+	flex-direction: column;
+	/* text-align: center; */
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+h1 {
+	margin-bottom: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 40px;
+	text-shadow: 0 0 15px blue ;
+}
+.box a:hover{
+	background-color: #19376D;
+}
+.box a{
+	font-size: 15px;
+	background-color: #ACB1D6;
+	font-weight: bold;
+	padding: 10px;
+	width: 10%;
+	border-radius: 10px;
+	color: #000;
+	display: inline;
+	margin-bottom: 10px;
+}
+.box{
+	margin-left: 281px;
+}
+
+.container-read .btn-edit {
+	border-radius: 10px;
+	background-color: rgb(0, 132, 255);
+	padding: 7px;
+	color: #000;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 8px;
+	font-size: 15px;
+}
+.container-read .btn-edit:hover{
+	background-color: #ACB1D6;
+}
+.container-read .btn-del {
+	border-radius: 10px;
+	background-color: crimson;
+	padding: 7px;
+	color: #000;
+	font-weight: bold;
+	color: #fff;
+	font-size: 15px;
+}
+.container-read .btn-del:hover{
+	background-color: #ACB1D6;
+}
+
+th{
+	padding: 10px ;
+	background: transparent;
+	/*background-color: rgb(151, 148, 148);*/
+	border:3px solid #526D82;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+td{
+	padding: 10px ;
+	text-align: left;
+	background: transparent;
+	/*background-color: rgb(235, 229, 229);*/
+	border:3px solid #526D82;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+}
+tr:hover{
+	background-color: rgb(151, 148, 148);
+}
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	border:2px solid #526D82;
+}
+
+/* create */
+.container-create {
+	text-align: center;
+	justify-content: center;
+	margin: 100px;
+	align-items: center;
+}
+
+.container-create form {
+	padding:20px;
+}
+.container-create h1 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	text-shadow: 0 0 15px blue ;
+}
+
+.form-create{
+	text-align: center;
+}
+
+.form-create label{
+	display: inline-block;
+	text-align: left;
+	width: 50px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.form-create input {
+	padding: 10px 17px;
+	border-radius: 10px;
+	width: 25%;
+	font-size: 17px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.form-create legend {
+	margin-right: 170px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-style: oblique;
+}
+.btn-create input{
+	margin-left: 250px;
+	font-size: 15px;
+	background-color: #ACB1D6;
+	font-weight: bold;
+	padding: 10px;
+	width: 10%;
+}
+.btn-create input:hover{
+	background-color: #19376D;
+}
+
+body {
+	background-image: url(../image/image1.jpg);
+}
